@@ -1,22 +1,37 @@
 			h3 {
-				font-size: 130%;
+				font-size: 300%;
+				font-family: 'helvetica-neue', 'helvetica', 'arial', 'sans-serif';
+				text-align: center;
+			}
+
+			body {
+				background-color: #DEDEE0;
+				padding-top: 100px;
 			}
 
 			.container {
-				padding: 30px;
-				margin: 20px 0 20px 0;
-				background: #C0C0C0;
+				/*padding: 30px;
+				margin: 20px 0 20px 0;*/
+				padding-top: 25px;
+				padding-right: 100px;
+				padding-bottom: 25px;
+				padding-left: 100px;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-bottom: 50px;
+				background: #C8CCE8;
 			}
 
 			#minitabs {
 				margin: 0;
 				padding: 0 0 20px 10px;
 				border-bottom: 1px solid #696;
+				
 			}
 
 			#minitabs li {
-				margin: 0; 
-				padding: 0;
+				/*margin: 0; 
+				padding: 0;*/
 				display: inline;
 				list-style-type: none;
 			}
@@ -42,11 +57,12 @@
 			/* relative font-size version */
 
 			#miniflex {
-				width: 35%;
+				width: 50%;
 				float: left;
 				font-size: small; /* could be specified at a higher level */
-				margin: 0;
-				padding: 0 10px 0 10px;
+				/*margin: 0;*/
+				margin-left: 350px;
+				padding: 0px;
 				border-bottom: 1px solid #333;
 			}
 
