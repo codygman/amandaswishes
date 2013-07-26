@@ -5,21 +5,26 @@
 			}
 
 			body {
-				background-color: #DEDEE0;
-				padding-top: 100px;
+				background: url('images/paperstars.jpg') no-repeat center center fixed;
+				background-size: cover;
+				padding-top: 10px;
+				font-size: 18px;
 			}
 
 			.container {
-				/*padding: 30px;
-				margin: 20px 0 20px 0;*/
+				border: solid grey 1px;
+				background: white;
+				opacity: 0.7;
+				filter:alpha(opacity=40); /*for IE8 and earlier*/
+
 				padding-top: 25px;
 				padding-right: 100px;
 				padding-bottom: 25px;
 				padding-left: 100px;
-				margin-left: 100px;
-				margin-right: 100px;
-				margin-bottom: 50px;
-				background: #C8CCE8;
+
+				/* center div */
+				margin: 0 auto;
+
 			}
 
 			#minitabs {
@@ -81,7 +86,7 @@
 				font-weight: bold;
 				margin: 0 10px 0 10px;
 				text-decoration: none;
-				color: #999;
+				color: white;
 			}
 
 			#miniflex a.active:link, #miniflex a.active:visited, #miniflex a:hover {
